@@ -593,7 +593,7 @@ const slides = [
     content: {
       duration: 5000,
       source:
-        "875557066",
+        "https://player.vimeo.com/video/882393277",
     },
   },
   {
