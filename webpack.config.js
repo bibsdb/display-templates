@@ -44,6 +44,7 @@ const entry = devMode
         "./src/instagram-feed/instagram-feed.js"
       ),
       iframe: path.resolve(__dirname, "./src/iframe/iframe.js"),
+      vimeo: path.resolve(__dirname, "./src/vimeo/vimeo.js"),
       table: path.resolve(__dirname, "./src/table/table.js"),
       video: path.resolve(__dirname, "./src/video/video.js"),
       travel: path.resolve(__dirname, "./src/travel/travel.js"),

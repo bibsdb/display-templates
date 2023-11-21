@@ -5,7 +5,7 @@ import { ThemeStyles } from "../slide-util";
 import "../global-styles.css";
 
 /**
- * IFrame component.
+ * Vimeo component.
  *
  * @param {object} props Props.
  * @param {object} props.slide The slide.

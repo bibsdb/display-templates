@@ -588,6 +588,15 @@ const slides = [
     },
   },
   {
+    id: "slide8-vimeo",
+    type: "vimeo",
+    content: {
+      duration: 5000,
+      source:
+        "875557066",
+    },
+  },
+  {
     id: "slide9-table",
     type: "table",
     themeFile: "themes/aarhus.css",
