@@ -592,8 +592,8 @@ const slides = [
     type: "vimeo",
     content: {
       duration: 5000,
-      source:
-        "https://player.vimeo.com/video/882393277",
+      vimeoid:
+        "882393277",
     },
   },
   {

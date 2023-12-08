@@ -16,7 +16,7 @@ import "../global-styles.css";
  * @returns {JSX.Element} The component.
  */
 function Vimeo({ slide, content, run, slideDone, executionId }) {
-  const { source, duration = 15000 } = content;
+  const { vimeoid, duration = 15000 } = content;
 
   /** Setup slide run function. */
   const slideExecution = new BaseSlideExecution(slide, slideDone);
@@ -32,15 +32,12 @@ function Vimeo({ slide, content, run, slideDone, executionId }) {
 
   return (
     <>
-      <iframe
-        title="iframe title"
-        sandbox="allow-same-origin allow-scripts"
-        frameBorder="0"
-        scrolling="no"
-        src={source}
-        width="100%"
-        height="100%"
-      />
+      <div 
+        className="vimeo">
+        <div className="vimeo-iframe-wrapper js-vimeo--player">
+          {vimeoid}
+        </div>
+      </div>
       <ThemeStyles id={executionId} css={slide?.themeData?.cssStyles} />
     </>
   );
@@ -57,7 +54,7 @@ Vimeo.propTypes = {
   }).isRequired,
   content: PropTypes.shape({
     duration: PropTypes.number.isRequired,
-    source: PropTypes.string,
+    vimeoid: PropTypes.string,
   }).isRequired,
   executionId: PropTypes.string.isRequired,
 };
