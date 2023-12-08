@@ -1,11 +1,11 @@
 {
-  "title": "Vimeo",
+  "title": "Vimeo Player",
   "icon": "",
   "id": "01FQBJQ2M3544ZKAADPWBXHY17",
   "description": "Skabelon til Vimeo Video.",
   "resources": {
-    "component": "https://display-templates.sonderborg.dk/build/vimeo.js",
-    "admin": "https://display-templates.sonderborg.dk/build/vimeo-admin.json",
+    "component": "https://display-templates.sonderborg.dk/build/vimeo-player.js",
+    "admin": "https://display-templates.sonderborg.dk/build/vimeo-player-admin.json",
     "schema": "",
     "assets": [],
     "options": {},

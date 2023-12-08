@@ -588,12 +588,11 @@ const slides = [
     },
   },
   {
-    id: "slide8-vimeo",
-    type: "vimeo",
+    id: "slide8-vimeo-player",
+    type: "vimeo-player",
     content: {
       duration: 5000,
-      vimeoid:
-        "882393277",
+      vimeoid: "882393277",
     },
   },
   {

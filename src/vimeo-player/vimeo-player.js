@@ -1,11 +1,12 @@
 import React, { useEffect } from "react";
+import Vimeo from "@u-wave/react-vimeo"; // eslint-disable-line import/no-unresolved
 import PropTypes from "prop-types";
 import BaseSlideExecution from "../base-slide-execution";
 import { ThemeStyles } from "../slide-util";
 import "../global-styles.css";
 
 /**
- * Vimeo component.
+ * Vimeo Player component.
  *
  * @param {object} props Props.
  * @param {object} props.slide The slide.
@@ -15,7 +16,7 @@ import "../global-styles.css";
  * @param {string} props.executionId Unique id for the instance.
  * @returns {JSX.Element} The component.
  */
-function Vimeo({ slide, content, run, slideDone, executionId }) {
+function VimeoPlayer({ slide, content, run, slideDone, executionId }) {
   const { vimeoid, duration = 15000 } = content;
 
   /** Setup slide run function. */
@@ -32,18 +33,13 @@ function Vimeo({ slide, content, run, slideDone, executionId }) {
 
   return (
     <>
-      <div 
-        className="vimeo">
-        <div className="vimeo-iframe-wrapper js-vimeo--player">
-          {vimeoid}
-        </div>
-      </div>
+      <Vimeo video={vimeoid} autoplay />
       <ThemeStyles id={executionId} css={slide?.themeData?.cssStyles} />
     </>
   );
 }
 
-Vimeo.propTypes = {
+VimeoPlayer.propTypes = {
   run: PropTypes.string.isRequired,
   slideDone: PropTypes.func.isRequired,
   slide: PropTypes.shape({
@@ -59,4 +55,4 @@ Vimeo.propTypes = {
   executionId: PropTypes.string.isRequired,
 };
 
-export default Vimeo;
+export default VimeoPlayer;
