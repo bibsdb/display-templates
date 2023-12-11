@@ -4,9 +4,9 @@
   "id": "01FWJZQ25A1868V63CWYYHQFKQ",
   "description": "Mulighed for at vise plakat indhold.",
   "resources": {
-    "component": "https://display-templates.local.itkdev.dk/build/poster.js?ts=1702297860102",
-    "admin": "https://display-templates.local.itkdev.dk/build/poster-admin.json?ts=1702297860102",
-    "schema": "https://display-templates.local.itkdev.dk/build/poster-schema.json?ts=1702297860102",
+    "component": "https://display-templates.local.itkdev.dk/build/poster.js?ts=1702301793858",
+    "admin": "https://display-templates.local.itkdev.dk/build/poster-admin.json?ts=1702301793858",
+    "schema": "https://display-templates.local.itkdev.dk/build/poster-schema.json?ts=1702301793858",
     "assets": [],
     "options": {},
     "content": {}

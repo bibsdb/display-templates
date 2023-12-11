@@ -33,7 +33,14 @@ function VimeoPlayer({ slide, content, run, slideDone, executionId }) {
 
   return (
     <>
-      <Vimeo video={vimeoid} autoplay />
+      <Vimeo
+        video={vimeoid}
+        responsive
+        autoplay
+        volume={0}
+        paused={false}
+        loop
+      />
       <ThemeStyles id={executionId} css={slide?.themeData?.cssStyles} />
     </>
   );
