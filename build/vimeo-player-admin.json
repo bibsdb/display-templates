@@ -9,7 +9,7 @@
   {
     "key": "vimeo-form-2",
     "input": "input",
-    "name": "source",
+    "name": "vimeoid",
     "label": "Vimeo Id",
     "formGroupClasses": "col-md-6"
   },
