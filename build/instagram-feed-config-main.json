@@ -4,9 +4,9 @@
   "id": "01FTZC0RKJYHG4JVZG5K709G46",
   "description": "Mulighed for at vise instagram indhold.",
   "resources": {
-    "component": "https://display-templates.local.itkdev.dk/build/instagram-feed.js?ts=1702301793858",
-    "admin": "https://display-templates.local.itkdev.dk/build/instagram-feed-admin.json?ts=1702301793858",
-    "schema": "https://display-templates.local.itkdev.dk/build/instagram-feed-schema.json?ts=1702301793858",
+    "component": "https://display-templates.local.itkdev.dk/build/instagram-feed.js?ts=1702376214720",
+    "admin": "https://display-templates.local.itkdev.dk/build/instagram-feed-admin.json?ts=1702376214720",
+    "schema": "https://display-templates.local.itkdev.dk/build/instagram-feed-schema.json?ts=1702376214720",
     "assets": [],
     "options": {},
     "content": {}

@@ -4,8 +4,8 @@
   "id": "01FQBJQ2M3544ZKAADPWBXHY17",
   "description": "Skabelon til Vimeo Video.",
   "resources": {
-    "component": "https://raw.githubusercontent.com/bibsdb/display-templates/bibsdb/build/vimeo-player.js?ts=1702301793858",
-    "admin": "https://raw.githubusercontent.com/bibsdb/display-templates/bibsdb/build/vimeo-player-admin.json?ts=1702301793858",
+    "component": "https://raw.githubusercontent.com/bibsdb/display-templates/bibsdb/build/vimeo-player.js?ts=1702376214720",
+    "admin": "https://raw.githubusercontent.com/bibsdb/display-templates/bibsdb/build/vimeo-player-admin.json?ts=1702376214720",
     "schema": "",
     "assets": [],
     "options": {},

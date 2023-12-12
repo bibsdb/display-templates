@@ -35,7 +35,8 @@ function VimeoPlayer({ slide, content, run, slideDone, executionId }) {
     <>
       <Vimeo
         video={vimeoid}
-        responsive
+        width="100%"
+        height="100%"
         autoplay
         volume={0}
         paused={false}
