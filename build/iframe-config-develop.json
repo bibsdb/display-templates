@@ -4,8 +4,8 @@
   "id": "01FQBJQ2M3544ZKAADPWBXHY71",
   "description": "Skabelon til iFrame.",
   "resources": {
-    "component": "https://display-templates.local.itkdev.dk/build/iframe.js?ts=1706024087668",
-    "admin": "https://display-templates.local.itkdev.dk/build/iframe-admin.json?ts=1706024087668",
+    "component": "https://display-templates.local.itkdev.dk/build/iframe.js?ts=1706024454406",
+    "admin": "https://display-templates.local.itkdev.dk/build/iframe-admin.json?ts=1706024454406",
     "schema": "",
     "assets": [],
     "options": {},

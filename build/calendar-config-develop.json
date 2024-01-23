@@ -4,9 +4,9 @@
   "id": "01FRJPF4XATRN8PBZ35XN84PS6",
   "description": "Mulighed for at vise et kalenderfeed.",
   "resources": {
-    "component": "https://display-templates.local.itkdev.dk/build/calendar.js?ts=1706024087668",
-    "admin": "https://display-templates.local.itkdev.dk/build/calendar-admin.json?ts=1706024087668",
-    "schema": "https://display-templates.local.itkdev.dk/build/calendar-schema.json?ts=1706024087668",
+    "component": "https://display-templates.local.itkdev.dk/build/calendar.js?ts=1706024454406",
+    "admin": "https://display-templates.local.itkdev.dk/build/calendar-admin.json?ts=1706024454406",
+    "schema": "https://display-templates.local.itkdev.dk/build/calendar-schema.json?ts=1706024454406",
     "assets": [],
     "options": {},
     "content": {}

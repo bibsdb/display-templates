@@ -1,6 +1,8 @@
 import React, { useEffect, Fragment, useState } from "react";
 import PropTypes from "prop-types";
 import BaseSlideExecution from "../base-slide-execution";
+import { ThemeStyles } from "../slide-util";
+import "../global-styles.css";
 
 
 /**

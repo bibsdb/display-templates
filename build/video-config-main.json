@@ -4,9 +4,9 @@
   "id": "01FQBJFKM0YFX1VW5K94VBSNCC",
   "description": "Skabelon til video.",
   "resources": {
-    "component": "https://display-templates.local.itkdev.dk/build/video.js?ts=1706024087668",
-    "admin": "https://display-templates.local.itkdev.dk/build/video-admin.json?ts=1706024087668",
-    "schema": "https://display-templates.local.itkdev.dk/build/video-schema.json?ts=1706024087668",
+    "component": "https://display-templates.local.itkdev.dk/build/video.js?ts=1706024454406",
+    "admin": "https://display-templates.local.itkdev.dk/build/video-admin.json?ts=1706024454406",
+    "schema": "https://display-templates.local.itkdev.dk/build/video-schema.json?ts=1706024454406",
     "assets": [],
     "options": {},
     "content": {}
