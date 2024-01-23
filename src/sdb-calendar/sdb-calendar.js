@@ -4,7 +4,6 @@ import BaseSlideExecution from "../base-slide-execution";
 import { ThemeStyles } from "../slide-util";
 import "../global-styles.css";
 
-
 /**
  * Sdb Calendar component.
  *
@@ -33,8 +32,8 @@ function SdbCalendar({ slide, content, run, slideDone, executionId }) {
 
   return (
     <>
-      <div>{{ csv1 }}</div>
-      <div>{{ csv2 }}</div>
+      <div>{csv1}</div>
+      <div>{csv2}</div>
 
       <ThemeStyles id={executionId} css={slide?.themeData?.cssStyles} />
     </>

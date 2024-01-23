@@ -4,8 +4,8 @@
   "id": "01FRJPF4XATRN8PBZ35XN84PS6",
   "description": "Viser csv data som kalender.",
   "resources": {
-    "component": "https://raw.githubusercontent.com/bibsdb/display-templates/bibsdb/build/sdb-calendar.js?ts=1706024454406",
-    "admin": "https://raw.githubusercontent.com/bibsdb/display-templates/bibsdb/build/sdb-calendar-admin.json?ts=1706024454406",
+    "component": "https://raw.githubusercontent.com/bibsdb/display-templates/bibsdb/build/sdb-calendar.js?ts=1706024606218",
+    "admin": "https://raw.githubusercontent.com/bibsdb/display-templates/bibsdb/build/sdb-calendar-admin.json?ts=1706024606218",
     "schema": "",
     "assets": [],
     "options": {},
