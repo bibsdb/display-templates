@@ -596,6 +596,15 @@ const slides = [
     },
   },
   {
+    id: "slide8-sdb-calendar",
+    type: "sdb-calendar",
+    content: {
+      duration: 5000,
+      csv1: "https://docs.google.com/spreadsheets/d/e/2PACX-1vTqU_c16Lyk5HYPN5TbgE8ZEvsocojQQWcaumSj6n8mtHSeWcM17562xHT1jYh93bCTDwirraAcazpO/pub?gid=1585409462&single=true&output=csv",
+      csv2: "https://docs.google.com/spreadsheets/d/e/2PACX-1vTqU_c16Lyk5HYPN5TbgE8ZEvsocojQQWcaumSj6n8mtHSeWcM17562xHT1jYh93bCTDwirraAcazpO/pub?gid=1585409462&single=true&output=csv",
+    },
+  },
+  {
     id: "slide9-table",
     type: "table",
     themeFile: "themes/aarhus.css",

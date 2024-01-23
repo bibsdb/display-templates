@@ -48,6 +48,10 @@ const entry = devMode
         __dirname,
         "./src/vimeo-player/vimeo-player.js"
       ),
+      "sdb-calendar": path.resolve(
+        __dirname,
+        "./src/sdb-calendar/sdb-calendar.js"
+      ),
       table: path.resolve(__dirname, "./src/table/table.js"),
       video: path.resolve(__dirname, "./src/video/video.js"),
       travel: path.resolve(__dirname, "./src/travel/travel.js"),

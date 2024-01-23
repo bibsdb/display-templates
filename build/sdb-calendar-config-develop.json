@@ -1,0 +1,14 @@
+{
+  "title": "Sønderborg Kalender",
+  "icon": "",
+  "id": "01FRJPF4XATRN8PBZ35XN84PS6",
+  "description": "Viser csv data som kalender.",
+  "resources": {
+    "component": "https://raw.githubusercontent.com/bibsdb/display-templates/bibsdb/build/sdb-calendar.js?ts=1706024087668",
+    "admin": "https://raw.githubusercontent.com/bibsdb/display-templates/bibsdb/build/sdb-calendar-admin.json?ts=1706024087668",
+    "schema": "",
+    "assets": [],
+    "options": {},
+    "content": {}
+  }
+}

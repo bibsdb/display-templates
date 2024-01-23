@@ -1,0 +1,34 @@
+[
+  {
+    "key": "sdb-calendar-form-1",
+    "input": "header",
+    "text": "Skabelon: Sønderborg kalender",
+    "name": "header1",
+    "formGroupClasses": "h4 mb-3"
+  },
+  {
+    "key": "sdb-calendar-form-2",
+    "input": "input",
+    "name": "csv1",
+    "label": "URL til csv",
+    "formGroupClasses": "col-md-6"
+  },
+  {
+    "key": "sdb-calendar-form-3",
+    "input": "input",
+    "name": "csv2",
+    "label": "URL til csv",
+    "formGroupClasses": "col-md-6"
+  },
+  {
+    "key": "sdb-calendar-form-3",
+    "input": "duration",
+    "name": "duration",
+    "min": "1",
+    "type": "number",
+    "label": "Varighed (i sekunder)",
+    "helpText": "Her skal du skrive varigheden på slidet.",
+    "required": true,
+    "formGroupClasses": "col-md-6 mb-3"
+  }
+]

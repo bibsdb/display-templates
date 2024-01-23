@@ -4,9 +4,9 @@
   "id": "01FQBJFKM0YFX1VW5K94VBSNCP",
   "description": "Skabelon til tabel.",
   "resources": {
-    "component": "https://display-templates.local.itkdev.dk/build/table.js?ts=1702376474832",
-    "admin": "https://display-templates.local.itkdev.dk/build/table-admin.json?ts=1702376474832",
-    "schema": "https://display-templates.local.itkdev.dk/build/table-schema.json?ts=1702376474832",
+    "component": "https://display-templates.local.itkdev.dk/build/table.js?ts=1706024087668",
+    "admin": "https://display-templates.local.itkdev.dk/build/table-admin.json?ts=1706024087668",
+    "schema": "https://display-templates.local.itkdev.dk/build/table-schema.json?ts=1706024087668",
     "assets": [],
     "options": {},
     "content": {}

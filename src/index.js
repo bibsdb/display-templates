@@ -25,6 +25,7 @@ import Slideshow from "./slideshow/slideshow";
 import InstagramFeed from "./instagram-feed/instagram-feed";
 import IFrame from "./iframe/iframe";
 import VimeoPlayer from "./vimeo-player/vimeo-player";
+import SdbCalendar from "./sdb-calendar/sdb-calendar";
 import Table from "./table/table";
 import Video from "./video/video";
 import Travel from "./travel/travel";
@@ -121,6 +122,16 @@ export const renderSlide = (slide) => {
     case "vimeo-player":
       return (
         <VimeoPlayer
+          content={slide.content}
+          slide={slide}
+          run="1234"
+          slideDone={slideDone}
+          executionId="SLIDE_ID"
+        />
+      );
+    case "sdb-calendar":
+      return (
+        <SdbCalendar
           content={slide.content}
           slide={slide}
           run="1234"
